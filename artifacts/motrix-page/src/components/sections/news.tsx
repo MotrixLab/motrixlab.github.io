@@ -17,7 +17,7 @@ const NEWS_ITEMS = [
     content: (
       <>
         {"Release of "}
-        <a href="https://github.com/MotrixLab/ViMoGen" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">ViMoGen</a>
+        <a href="https://motrixlab.github.io/2026_iclr_vimogen" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">ViMoGen</a>
         {" (ICLR'26)"}
       </>
     ),
