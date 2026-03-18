@@ -27,6 +27,9 @@ jobs:
       - run: pnpm install
       - run: pnpm --filter @workspace/motrix-page run build
 
+      - name: Copy subpages into dist
+        run: cp -r subpages/2026_iclr_ViMoGen artifacts/motrix-page/dist/2026_iclr_vimogen
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./artifacts/motrix-page/dist
