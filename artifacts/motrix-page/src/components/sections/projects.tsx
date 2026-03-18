@@ -25,7 +25,7 @@ const MOTION_CAPTURE: Project[] = [
 ];
 
 const MOTION_GENERATION: Project[] = [
-  { title: "ViMoGen", venue: "ICLR'26", model: "SMPL-X", description: "A comprehensive framework that transfers knowledge from ViGen to MoGen across data, modeling, and evaluation.", link: "https://github.com/MotrixLab/ViMoGen" },
+  { title: "ViMoGen", venue: "ICLR'26", model: "SMPL-X", description: "A comprehensive framework that transfers knowledge from ViGen to MoGen across data, modeling, and evaluation.", link: "https://motrixlab.github.io/2026_iclr_vimogen" },
   { title: "LMM", venue: "ECCV'24", model: "SMPL-X", description: "Large Motion Model for Unified Multi-Modal Motion Generation.", link: "https://github.com/MotrixLab/LMM" },
   { title: "FineMoGen", venue: "NeurIPS'23", model: "SMPL-X", description: "Fine-Grained Spatio-Temporal Motion Generation and Editing.", link: "https://github.com/MotrixLab/FineMoGen" },
   { title: "InfiniteDance", model: "SMPL", description: "A large-scale 3D dance dataset and an MLLM-based music-to-dance model designed for robust in-the-wild generalization.", link: "https://github.com/MotrixLab/InfiniteDance" },
